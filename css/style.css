@@ -60,7 +60,62 @@
 
 /*celulares grandes (ex: iPhone 8 Plus) */
 @media (min-width: 577px) and (max-width: 767px) {
+    html {
+        position: relative;
+        min-height: 100%;
+    }
     
+    body{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        background-image: url('../img/fundo.png');
+    }
+   
+    .escudo{
+        width: 150px;
+    }
+
+    .logo{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .ftprincipal{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .menubtn{
+        display: flex;
+        justify-content: center;
+    }
+
+    button{
+        width: 90px;
+        border-radius: 30px;
+        background-color: aliceblue;
+        color: rgb(239, 0, 0);
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 10;
+        width: 100%;
+        text-align: center;
+        background-color: #000000;
+        color: aliceblue;
+    }
+   
+
 }
 
 /* tablets (ex: iPad) */

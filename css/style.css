@@ -1,10 +1,11 @@
-
-
 /*celulares pequenos (ex: iPhone SE) */
 @media (max-width: 576px) {
 
+    html {
+        position: relative;
+        min-height: 100%;
+    }
     
-
     body{
         background-position: center;
         background-size: cover;
@@ -12,7 +13,9 @@
         width: 100%;
         height: 100vh;
         margin: 0;
+        padding: 0;
         align-items: center;
+        background-image: url('../img/fundo.png');
     }
    
     .escudo{
@@ -36,12 +39,23 @@
     }
 
     button{
-        width: 150px;
+        width: 90px;
         border-radius: 30px;
         background-color: aliceblue;
         color: rgb(239, 0, 0);
+        font-size: 10px;
+        padding: 5px;
     }
 
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #000000;
+        color: aliceblue;
+    }
+   
 }
 
 /*celulares grandes (ex: iPhone 8 Plus) */

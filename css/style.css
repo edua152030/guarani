@@ -1,0 +1,65 @@
+
+
+/*celulares pequenos (ex: iPhone SE) */
+@media (max-width: 576px) {
+
+    
+
+    body{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        align-items: center;
+    }
+   
+    .escudo{
+        width: 150px;
+    }
+
+    .logo{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .ftprincipal{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .menubtn{
+        display: flex;
+        justify-content: center;
+    }
+
+    button{
+        width: 150px;
+        border-radius: 30px;
+        background-color: aliceblue;
+        color: rgb(239, 0, 0);
+    }
+
+}
+
+/*celulares grandes (ex: iPhone 8 Plus) */
+@media (min-width: 577px) and (max-width: 767px) {
+    
+}
+
+/* tablets (ex: iPad) */
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+
+/*notebooks (ex: laptops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/* televisões (ex: Full HD) */
+@media (min-width: 1200px) {
+   
+}

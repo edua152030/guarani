@@ -64,7 +64,7 @@
    
 }
 
-/*celulares grandes (ex: iPhone 8 Plus) */
+/*celulares grandes (ex: iPhone 8 Plus)---------------------------------------------------------------- */
 @media (min-width: 577px) and (max-width: 767px) {
     html {
         position: relative;
@@ -129,7 +129,7 @@
    
 }
 
-/* tablets (ex: iPad) */
+/* tablets (ex: iPad)---------------------------------------------------------------- */
 @media (min-width: 768px) and (max-width: 991px) {
     html {
         position: relative;
@@ -194,7 +194,7 @@
    
 }
 
-/*celulares grandes (ex: iPhone 8 Plus) */
+/*celulares grandes (ex: iPhone 8 Plus) ----------------------------------------------------------------*/
 @media (min-width: 577px) and (max-width: 767px) {
     html {
         position: relative;
@@ -257,7 +257,7 @@
    
 }
 
-/*notebooks (ex: laptops) */
+/*notebooks (ex: laptops) ----------------------------------------------------------------*/
 @media (min-width: 992px) and (max-width: 1199px) {
     html {
         position: relative;
@@ -335,7 +335,7 @@
    
 }
 
-/* televisões (ex: Full HD) */
+/* televisões (ex: Full HD)---------------------------------------------------------------- */
 @media (min-width: 1200px) {
     html {
         position: relative;

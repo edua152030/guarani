@@ -6,6 +6,10 @@
         min-height: 100%;
     }
     
+    main{
+        text-align: center;
+    }
+
     body{
         background-position: center;
         background-size: cover;
@@ -67,6 +71,10 @@
         min-height: 100%;
     }
     
+    main{
+        text-align: center;
+    }
+
     body{
         background-position: center;
         background-size: cover;
@@ -126,6 +134,10 @@
     html {
         position: relative;
         min-height: 100%;
+    }
+
+    main{
+        text-align: center;
     }
     
     body{
@@ -189,6 +201,10 @@
         min-height: 90%;
     }
     
+    main{
+        text-align: center;
+    }
+
     body{
         background-position: center;
         background-size: cover;
@@ -271,13 +287,17 @@
     }
 
     .ftprincipal{
-        width: 100%;
+        width: 70%;
         margin-top: 20px;
     }
 
     .menubtn{
         display: flex;
         justify-content: center;
+    }
+
+    main{
+        text-align: center;
     }
 
     button{
@@ -307,6 +327,10 @@
     html {
         position: relative;
         min-height: 100%;
+    }
+
+    main{
+        text-align: center;
     }
     
     body{
